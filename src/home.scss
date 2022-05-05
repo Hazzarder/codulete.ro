@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+@import "navbar";
+@import "searchbar";
+@import "media";
+
+body{
+    background-color: #F6F6F6;
+}
+.magazine{
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    display: flex;
+    
+    
+    
+    .magazin{
+        
+        width: 20%;
+        margin: 0 4%;
+        border-radius: 25px;
+        background-color: white;
+        
+        
+        
+        img{
+            width: 100%;
+            padding: 5%;
+        }
+        a{
+            text-decoration: none;
+            text-align: center;
+            font-size: 24px;
+        }
+        p{
+            color: black;
+        }
+    }
+}
+h1{
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+

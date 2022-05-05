@@ -1,0 +1,59 @@
+@media screen and (max-width: 1250px){
+    nav{
+        display: block;
+        padding: 0;
+        .logo{
+            display: inline-block;
+            padding: 15px 30px;
+
+        }
+        .search-box{
+            width: 100%;
+            display: inline-flex;
+            justify-content: center;
+            margin-bottom: 15px;
+            input{
+                width: 90%;
+            }
+        }
+        ul{
+            display: flex;
+            flex-direction: column;
+            height: 0;
+            visibility: hidden;
+            transition: 0.3s;
+            li{
+                text-align: center;
+                a{
+                    color: black;
+                    font-size: 28px;
+                    padding: 25px;
+                    display: block;
+                }
+            }
+        }
+        .bar{
+            display: block;
+            position: absolute;
+            top: 20px;
+            right: 80px;
+            cursor: pointer;
+            #x{
+                display: none;
+            }
+        }
+        
+    }
+    #check:checked ~ nav .bar #x{
+        display: block;
+    }
+    #check:checked ~ nav .bar #bars{
+        display: none;
+    }
+    #check:checked ~ nav ul{
+        visibility: visible;
+        height: 250px;
+
+    }
+    
+}

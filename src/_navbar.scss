@@ -1,0 +1,42 @@
+nav{
+    display: flex;
+    width: 100%;
+    background: #F2906C;
+    position: relative;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
+    .logo{
+        img{
+            height: 100px;
+        }
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        margin: auto 0;
+        li{
+            margin: 0 2px;
+            a{
+                color: black;
+                font-size: 20px;
+                text-decoration: none;
+                padding: 5px 10px;
+            }
+            :hover{
+                background-color: beige;
+            }
+        }
+    }
+    
+    .bar{
+        position: relative;
+        margin: auto;
+        display: none;
+        span{
+            position: absolute;
+            font-size: 35px;
+        }
+    }
+    
+}
