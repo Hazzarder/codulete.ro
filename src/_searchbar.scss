@@ -1,0 +1,49 @@
+
+.search-box{
+    display: flex;
+    margin:auto 0;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 20px;
+    background-color: white;
+
+    
+    input{
+        border: none;
+        outline: none;
+        border-radius: 60px;
+        height: 100%;
+        padding: 0 10px;
+        font-size: 20px;
+        width: 350px;
+    }
+    span{
+        color: black;
+        font-size: 20px;
+        
+        height: 100%;
+        
+        position: relative;
+        cursor: pointer;
+        z-index: 1;
+        :hover{
+            ::after{
+                width: 100%;
+            }
+        }
+        ::after{
+            height: 100%;
+            width: 100%;
+            content: '';
+            
+            top: 0;
+            left: 0;
+            z-index: -1;
+            transition: 0.3s;
+        }
+    }
+}
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    display: none;
+}
