@@ -184,45 +184,90 @@ input[type="checkbox"] {
   }
 }
 
-body {
-  background-color: #F6F6F6;
+section {
+  margin-top: 2.5vh;
+}
+
+section h1 {
+  font-size: 48px;
+  text-align: center;
 }
 
 .magazine {
+  margin-top: 2.5vh;
   width: 70%;
-  height: 100%;
-  padding: 10px 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   margin-left: 15%;
   margin-right: 15%;
 }
 
 .magazine .magazin {
-  width: 20%;
-  margin: 0 4%;
-  border-radius: 25px;
-  background-color: white;
-}
-
-.magazine .magazin img {
   width: 100%;
-  padding: 5%;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 24px;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 24px;
 }
 
-.magazine .magazin a {
-  text-decoration: none;
-  text-align: center;
+.magazine .magazin .scris {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.magazine .magazin .scris p {
   font-size: 24px;
 }
 
-.magazine .magazin p {
-  color: black;
+.magazine .magazin img {
+  height: 100%;
+  width: auto;
+  max-width: 160px;
 }
 
-h1 {
-  text-align: center;
-  padding: 20px 0;
+.magazine .magazin .btnn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 24px;
 }
-/*# sourceMappingURL=home.css.map */
+
+.magazine .magazin .btnn a {
+  text-decoration: none;
+}
+
+.magazine .magazin .btnn a button {
+  height: 48px;
+  padding: 20px;
+  border-radius: 12px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  background-color: #F2906C;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=magazine.css.map */

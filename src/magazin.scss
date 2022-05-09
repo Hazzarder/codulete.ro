@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+@import "navbar";
+@import "searchbar";
+@import "media";
+@import "oferta";
+
+section{
+
+    article{
+        margin-top: 24px;
+        display: flex;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+        
+        img{
+            height: 200px;
+            border-radius: 16px;
+        }
+        .detalii{
+            margin-left: 32px;
+            .dataSiNume{
+                
+                margin-top: 12px;
+                
+                h1{
+                    font-size: 24px;
+                
+                    
+
+                }
+                p{
+                    margin-top: 12px;
+                    
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: grey;
+                    
+                    
+                    
+                    
+                    
+                    
+                }
+            }
+            h2{
+                font-size: 20px;
+                font-weight: 400;
+                margin-top: 12px;
+                
+            }
+            .btn{
+                display: flex;
+                align-items: flex-end;
+                
+                a{
+
+                    button{
+                        background-color:white;;
+                        margin-top: 12px;
+                        border: none;
+                        height: 40px;
+                        width: 140px;
+                        
+                        border-radius: 8px;
+                        cursor: pointer;
+                        text-decoration: none;
+                        color: black;
+                        font-size: 18px;
+                        
+                        
+
+                    }
+                    :hover{
+                        color: white;
+                        background-color: #F2906C;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.content{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2.5vh;
+    
+
+    main{
+        width: 70%;
+    }
+    aside{
+        width:30%;
+    }
+}
+

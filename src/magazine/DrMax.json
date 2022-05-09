@@ -1,0 +1,27 @@
+[
+    {
+        "id" : 1,
+        "name" : "Reduceri la produsele din gama Nestle+transport gratuit la cumparaturi in valoare de minim 89LEI",
+        "link" : "https://event.2performant.com/events/click?ad_type=quicklink&aff_code=1ba56061c&unique=6390e3cfb&redirect_to=https%253A//www.drmax.ro/nestle",
+        "data" : "15 Aprilie-15 Mai"
+    },
+    {
+        "id": 2,
+        "name" : " Kit complet pentru un par sanatos cu 20% reducere la cele 3 cutii",
+        "link" : "https://www.drmax.ro/priorin-60-capsule-bayer",
+        "data" : "15 Mai-31 Mai"
+    },
+    {
+        "id" : 3,
+        "name" : "Relaxat le duci pe toate 2+1 Gratis",
+        "link" : "https://www.drmax.ro/magnevie-stress-resist-30-comprimate-sanofi",
+        "data" : "1 Mai-31 Mai"
+    },
+    {
+        "id" : 4,
+        "name" : "Un ten sanatos la orice varsta. Preturi specialela gama Vichy",
+        "link" : "https://event.2performant.com/events/click?ad_type=quicklink&aff_code=1ba56061c&unique=6390e3cfb&redirect_to=https%253A//www.drmax.ro/promotie-mai-vichy",
+        "data" : "1 Mai-31 Mai",
+        "verified" : "verificat"
+    }
+]

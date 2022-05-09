@@ -1,0 +1,78 @@
+.oferta{
+    display: flex;
+    height: 160px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    
+    .stanga{
+        display: flex;
+        margin-left: 12px;
+        .procent{
+            display: flex;
+            height: 100%;
+            width: 120px;
+            justify-content: center;
+            align-items: center;
+            h1{
+                color: green;
+            }
+            
+        }
+        .details{
+            margin-left: 12px;
+            .cod{
+                display: flex;
+                p{
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: grey;
+                    margin-left: 4px;
+    
+                }
+                i{
+                    color: green;
+                    margin-left: 4px;
+                }
+    
+            }
+    
+        }
+        .reducere{
+            margin-top: 24px;
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+    .btnn{
+        margin-left: 12px;
+        display: flex;
+        align-items: center;
+        
+        a{
+
+            button{
+                color: white;
+                background-color: #F2906C;
+                
+                border: none;
+                height: 48px;
+                width: 140px;
+                
+                border-radius: 8px;
+                cursor: pointer;
+                text-decoration: none;
+
+                font-size: 18px;
+                
+                
+
+            }
+
+        }
+    }
+}

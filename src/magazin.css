@@ -184,45 +184,177 @@ input[type="checkbox"] {
   }
 }
 
-body {
-  background-color: #F6F6F6;
-}
-
-.magazine {
-  width: 70%;
-  height: 100%;
-  padding: 10px 20px;
+.oferta {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-.magazine .magazin {
-  width: 20%;
-  margin: 0 4%;
-  border-radius: 25px;
-  background-color: white;
-}
-
-.magazine .magazin img {
+  height: 160px;
   width: 100%;
-  padding: 5%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 12px;
 }
 
-.magazine .magazin a {
+.oferta .stanga {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 12px;
+}
+
+.oferta .stanga .procent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  width: 120px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.oferta .stanga .procent h1 {
+  color: green;
+}
+
+.oferta .stanga .details {
+  margin-left: 12px;
+}
+
+.oferta .stanga .details .cod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.oferta .stanga .details .cod p {
+  font-size: 18px;
+  font-weight: 500;
+  color: grey;
+  margin-left: 4px;
+}
+
+.oferta .stanga .details .cod i {
+  color: green;
+  margin-left: 4px;
+}
+
+.oferta .stanga .reducere {
+  margin-top: 24px;
+}
+
+.oferta .stanga .reducere h2 {
+  font-size: 20px;
+}
+
+.oferta .btnn {
+  margin-left: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.oferta .btnn a button {
+  color: white;
+  background-color: #F2906C;
+  border: none;
+  height: 48px;
+  width: 140px;
+  border-radius: 8px;
+  cursor: pointer;
   text-decoration: none;
-  text-align: center;
+  font-size: 18px;
+}
+
+section article {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+section article img {
+  height: 200px;
+  border-radius: 16px;
+}
+
+section article .detalii {
+  margin-left: 32px;
+}
+
+section article .detalii .dataSiNume {
+  margin-top: 12px;
+}
+
+section article .detalii .dataSiNume h1 {
   font-size: 24px;
 }
 
-.magazine .magazin p {
-  color: black;
+section article .detalii .dataSiNume p {
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  color: grey;
 }
 
-h1 {
-  text-align: center;
-  padding: 20px 0;
+section article .detalii h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 12px;
 }
-/*# sourceMappingURL=home.css.map */
+
+section article .detalii .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+section article .detalii .btn a button {
+  background-color: white;
+  margin-top: 12px;
+  border: none;
+  height: 40px;
+  width: 140px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+section article .detalii .btn a :hover {
+  color: white;
+  background-color: #F2906C;
+}
+
+.content {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2.5vh;
+}
+
+.content main {
+  width: 70%;
+}
+
+.content aside {
+  width: 30%;
+}
+/*# sourceMappingURL=magazin.css.map */

@@ -1,4 +1,4 @@
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 600px){
     nav{
         display: block;
         padding: 0;
@@ -8,12 +8,15 @@
 
         }
         .search-box{
-            width: 100%;
+            width: 90%;
             display: inline-flex;
             justify-content: center;
             margin-bottom: 15px;
+            margin-left: 5%;
+            margin-right: 5%;
             input{
                 width: 90%;
+
             }
         }
         ul{
